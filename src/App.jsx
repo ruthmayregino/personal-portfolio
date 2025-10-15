@@ -222,7 +222,7 @@ export default function App() {
             <div className="business-text">
               <h3>Daing na Bangus and Tinapa</h3>
               <p>
-                I purchase these products directly from the public market in Alaminos, Pangasinan. They are always freshly prepared and highly sought after, often selling out quickly.
+                I purchase these products directly from the public market in Alaminos, Pangasinan. They are always freshly prepared and highly sought after, often selling out quickly. I also sell this in Pampanga.
               </p>
             </div>
           </div>
