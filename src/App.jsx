@@ -5,20 +5,21 @@ import "./App.css";
 
 export default function App() {
   const images = [
-    "/images/home1.heic",
-    "/images/home2.heic",
-    "/images/home3.heic",
-    "/images/home4.heic",
-    "/images/home5.jpeg",
+    "src/assets/home1.heic",
+    "src/assets/home2.heic",
+    "src/assets/home3.heic",
+    "src/assets/home4.heic",
+    "src/assets/home5.jpeg",
   ];
 
   const aboutImages = [
-    "/images/AboutMe1.JPG",
-    "/images/AboutMe2.jpeg",
-    "/images/AboutMe3.heic",
-    "/images/AboutMe4.jpeg",
-    "/images/AboutMe5.JPG",
+    "src/assets/AboutMe1.JPG",
+    "src/assets/AboutMe2.jpeg",
+    "src/assets/AboutMe3.heic",
+    "src/assets/AboutMe4.jpeg",
+    "src/assets/AboutMe5.JPG",
   ];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentAbout, setCurrentAbout] = useState(0);
