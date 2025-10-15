@@ -130,7 +130,7 @@ export default function App() {
         <div className="project-card" style={{ textAlign: "center" }}>
           <a href="https://sleepywear-frontend.onrender.com/" target="_blank" rel="noopener noreferrer">
             <img 
-              src="/images/logo_orig.png" 
+              src="src/assets/logo_orig.png" 
               alt="Sleepywears.ph Logo" 
               style={{ width: "300px", height: "300px", objectFit: "contain", marginBottom: "15px" }}
             />
@@ -208,7 +208,7 @@ export default function App() {
         <div className="business-gallery">
           {/* Business 1 */}
           <div className="business-item">
-            <img src="/images/Shrimp.HEIC" alt="Fresh Shrimps" className="business-photo" />
+            <img src="src/assets/Shrimp.HEIC" alt="Fresh Shrimps" className="business-photo" />
             <div className="business-text">
               <h3>Fresh Shrimps</h3>
               <p>
@@ -219,7 +219,7 @@ export default function App() {
 
           {/* Business 2 */}
           <div className="business-item">
-            <img src="/images/Bangus.jpeg" alt="Daing na Bangus and Tinapa" className="business-photo" />
+            <img src="src/assets/Bangus.jpeg" alt="Daing na Bangus and Tinapa" className="business-photo" />
             <div className="business-text">
               <h3>Daing na Bangus and Tinapa</h3>
               <p>
@@ -230,7 +230,7 @@ export default function App() {
 
           {/* Business 3 */}
           <div className="business-item">
-            <img src="/images/Flyers.heic" alt="Campaign Flyers" className="business-photo" />
+            <img src="src/assets/Flyers.heic" alt="Campaign Flyers" className="business-photo" />
             <div className="business-text">
               <h3>Campaign Flyers</h3>
               <p>
@@ -241,7 +241,7 @@ export default function App() {
 
           {/* Business 4 */}
           <div className="business-item">
-            <img src="/images/eskhavi.HEIC" alt="Es'khavi" className="business-photo" />
+            <img src="src/assets/eskhavi.HEIC" alt="Es'khavi" className="business-photo" />
             <div className="business-text">
               <h3>Es'khavi</h3>
               <p>
@@ -270,7 +270,7 @@ export default function App() {
             <p>
               I’ve summarized my professional journey in this resume. It includes my career objectives, personal details, skills, education, and career history. Feel free to download it to see more about my experiences and growth!
             </p>
-            <a href="/resume.pdf" className="download-btn" download>
+            <a href="src/assets/resume.pdf" className="download-btn" download>
               Download My Resume
             </a>
           </div>
