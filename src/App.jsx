@@ -17,7 +17,7 @@ export default function App() {
     "/images/AboutMe2.jpeg",
     "/images/AboutMe3.heic",
     "/images/AboutMe4.jpeg",
-    "/images/AboutMe5.jpeg",
+    "/images/AboutMe5.JPG",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
