@@ -5,19 +5,19 @@ import "./App.css";
 
 export default function App() {
   const images = [
-    "src/assets/home1.heic",
-    "src/assets/home2.heic",
-    "src/assets/home3.heic",
-    "src/assets/home4.heic",
+    "src/assets/home1.jpeg",
+    "src/assets/home2.jpeg",
+    "src/assets/home3.jpeg",
+    "src/assets/home4.jpeg",
     "src/assets/home5.jpeg",
   ];
 
   const aboutImages = [
-    "src/assets/AboutMe1.JPG",
+    "src/assets/AboutMe1.jpeg",
     "src/assets/AboutMe2.jpeg",
-    "src/assets/AboutMe3.heic",
+    "src/assets/AboutMe3.jpeg",
     "src/assets/AboutMe4.jpeg",
-    "src/assets/AboutMe5.JPG",
+    "src/assets/AboutMe5.jpeg",
   ];
 
 
@@ -208,7 +208,7 @@ export default function App() {
         <div className="business-gallery">
           {/* Business 1 */}
           <div className="business-item">
-            <img src="src/assets/Shrimp.HEIC" alt="Fresh Shrimps" className="business-photo" />
+            <img src="src/assets/Shrimp.jpeg" alt="Fresh Shrimps" className="business-photo" />
             <div className="business-text">
               <h3>Fresh Shrimps</h3>
               <p>
@@ -230,7 +230,7 @@ export default function App() {
 
           {/* Business 3 */}
           <div className="business-item">
-            <img src="src/assets/Flyers.heic" alt="Campaign Flyers" className="business-photo" />
+            <img src="src/assets/Flyers.jpeg" alt="Campaign Flyers" className="business-photo" />
             <div className="business-text">
               <h3>Campaign Flyers</h3>
               <p>
@@ -241,7 +241,7 @@ export default function App() {
 
           {/* Business 4 */}
           <div className="business-item">
-            <img src="src/assets/eskhavi.HEIC" alt="Es'khavi" className="business-photo" />
+            <img src="src/assets/eskhavi.jpeg" alt="Es'khavi" className="business-photo" />
             <div className="business-text">
               <h3>Es'khavi</h3>
               <p>
